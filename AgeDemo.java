@@ -1,3 +1,4 @@
+/*7th Program*/
 class WrongAge extends Exception{
     public WrongAge(String message){
         super(message);
@@ -46,4 +47,5 @@ public class AgeDemo{
             System.out.println("Exception :"+ e.getMessage());
         }
     }
+
 }
